@@ -1,4 +1,3 @@
-```sql
 /*
 ===========================================================
 Silver Layer Transformation: crm_cust_info
@@ -149,4 +148,4 @@ WHERE cst_firstname != TRIM(cst_firstname);
 
 -- Final data view
 SELECT * FROM silver.crm_cust_info;
-```
+
